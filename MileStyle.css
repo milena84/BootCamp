@@ -1,0 +1,35 @@
+html{
+    text-align: center;
+    font-family: SansSerif;
+}
+
+body,header{
+    text-align: center;
+    font-family: "Al Nile"
+}
+
+
+header#titulo{
+    display: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+
+.text-titulo{
+    display: inherit !important;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-name: titulo;
+}
+
+@keyframes titulo {
+    from {color: blue;}
+    to {color: purple;}
+
+}
